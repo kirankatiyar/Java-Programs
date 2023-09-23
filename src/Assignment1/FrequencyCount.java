@@ -3,6 +3,7 @@
 //input : "aaple orange apple banana orange apple"
 //output: apple:3  orange:2  banana:1
 package Assignment1;
+import java.util.Map;
 import java.util.HashMap;
 import java.util.Scanner;
 public class FrequencyCount {
@@ -26,7 +27,7 @@ public class FrequencyCount {
             }
         }
         // Loop to iterate  HashMap.
-        for(HashMap.Entry<String,Integer> entry: mp.entrySet())
+        for(Map.Entry<String,Integer> entry: mp.entrySet())
         {
             System.out.println(entry.getKey()+ " : "+entry.getValue());
         }
