@@ -6,9 +6,9 @@ package Assignment1;
 import java.util.Scanner;
 import java.util.Stack;
 public class ReverseString {
-    public String reverseString(String data){
+    public String reverseString(String str){
         Stack<Character> stk = new Stack<Character>();
-        char[] charry = data.toCharArray(); //convert string into character and store in character array
+        char[] charry = str.toCharArray(); //convert string into character and store in character array
         for(int i=0;i<charry.length;i++){   // store character in stack
             stk.push(charry[i]);}
         for(int i=0;i<charry.length;i++){
