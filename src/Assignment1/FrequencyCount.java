@@ -1,5 +1,5 @@
 
-//Create a program that takes a list of words as input andcounts the frequency of each word.
+//Create a program that takes a list of words as input and counts the frequency of each word.
 //Example.....
 //input : "aaple orange apple banana orange apple"
 //output: apple:3  oran
