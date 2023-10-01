@@ -1,7 +1,8 @@
+
 //Create a program that takes a list of words as input andcounts the frequency of each word.
 //Example.....
 //input : "aaple orange apple banana orange apple"
-//output: apple:3  orange:2  banana:1
+//output: apple:3  oran
 package Assignment1;
 import java.util.Map;
 import java.util.HashMap;
@@ -12,18 +13,18 @@ public class FrequencyCount {
     {
         HashMap<String,Integer> mp=new HashMap<>();
         // convert given String into String array by string split() method.
-        String arr[]=str.split(" ");
+        String arry[]=str.split(" ");
         // Loop to iterate array.
-        for(int i=0;i<arr.length;i++)
+        for(int i=0;i<arry.length;i++)
         {
             // Condition checks whether array element is in hashmap or not.
-            if(mp.containsKey(arr[i]))
+            if(mp.containsKey(arry[i]))
             {
-                mp.put(arr[i], mp.get(arr[i])+1);
+                mp.put(arry[i], mp.get(arry[i])+1);
             }
             else
             {
-                mp.put(arr[i],1);
+                mp.put(arry[i],1);
             }
         }
         // Loop to iterate  HashMap.
